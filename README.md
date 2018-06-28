@@ -18,6 +18,7 @@ Tài liệu thống nhất các quy ước về các tiêu chuẩn, nguyên tắ
 
 ## JavaScript
 
+* [Quy ước đặt tên](https://www.w3schools.com/js/js_conventions.asp)
 * [Airbnb JavaScript Style Guide](https://github.com/hsdt/javascript)
 
 ## C#

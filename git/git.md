@@ -51,7 +51,7 @@ Một repository sẽ luôn có 2 nhánh chính hoạt động:
 * `master` - nhánh phát triển luôn chứa mã nguồn mới nhất cho bản phát hành tiếp theo.
 * `stable` - nhánh ổn định mới nhất đã triển khai cho khách hàng. Trong quá trình phát triển hàng ngày, nhánh này sẽ không được tương tác.
 
-Khi mã nguồn trên nhánh `master` được xem xét là ổn định và được triển khai thật, thì tất cả các thay đổi trên nhánh này sẽ được merge và tag với 1 số phiên bản phát hành. *Điều này được thực hiện thế nào sẽ được thảo luận sau.*
+Khi mã nguồn trên nhánh `master` được xem xét là ổn định và được triển khai thật, thì tất cả các thay đổi trên nhánh này sẽ được merge vào nhánh `stable` và tag với 1 số phiên bản phát hành mới. *Điều này được thực hiện thế nào sẽ được thảo luận sau.*
 
 ## Các nhánh hỗ trợ phát triển
 
