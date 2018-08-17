@@ -65,7 +65,7 @@ Các nhánh hỗ trợ thường được sử dụng để hỗ trợ phát tri
 Các nhánh này bao gồm:
 
 * Features branches
-  * Nhánh có chức năng phát triển các tính năng mới và được cập nhật trong giai đoạn 1 (10 - 30 ngày), giai đoạn 2 (31 - 60 ngày).
+  * Nhánh có chức năng phát triển các tính năng mới và được cập nhật trong giai đoạn 1 (3-5 ngày), giai đoạn 2 (5-10 ngày), giai đoạn 3 (10-30 ngày), giai đoạn 4 (31-60 ngày).
   * Mã hiệu tên nhánh: `dev-*`, `feat-*`, hoặc `topic-*`
   * Mức độ ưu tiên: `3`
   * Chỉ số semver: MAJOR, MINOR
