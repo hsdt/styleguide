@@ -47,4 +47,8 @@ Tài liệu thống nhất các quy ước về các tiêu chuẩn, nguyên tắ
 
 # License
 
-<a rel="license" href="https://en.wikipedia.org/wiki/MIT_License" target="_blank"><img alt="The MIT License" style="border-width:0;" width="120px" src="./images/ossninja.svg" /></a>
+MIT License
+
+Copyright (c) 2018 HỒ SƠ ĐIỆN TỬ
+
+<a rel="license" href="https://en.wikipedia.org/wiki/MIT_License" target="_blank"><img alt="The MIT License" style="border-width:0;" width="120px" src="https://raw.githubusercontent.com/hsdt/styleguide/master/images/ossninja.svg?sanitize=true" /></a>

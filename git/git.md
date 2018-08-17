@@ -29,17 +29,22 @@
     <tr>
       <td>Working</td>
       <td>master</td>
-      <td>Nhánh phát triển: Chỉ chấp nhận các yêu cầu merge (PR) từ nhánh các nhánh Features/Issues và Hotfixes (không code trực tiếp trên nhánh này).</td>
+      <td>Nhánh phát triển: Chỉ chấp nhận các yêu cầu merge (PR) từ nhánh các nhánh Features/Issues, Bugfixes và Hotfixes (không code trực tiếp trên nhánh này).</td>
     </tr>
     <tr>
       <td>Features/Issues</td>
-      <td>topic-*</td>
+      <td>dev-*, feat-*, topic-*</td>
       <td>Luôn rẽ từ ngọn (HEAD) của nhánh Working</td>
+    </tr>
+    <tr>
+      <td>Bugfix</td>
+      <td>bugfix-*</td>
+      <td>Luôn rẽ từ nhánh Stable, kết thúc nhánh sẽ được merge về <code>stable</code> và <code>master</code></td>
     </tr>
     <tr>
       <td>Hotfix</td>
       <td>hotfix-*</td>
-      <td>Luôn rẽ từ nhánh Stable</td>
+      <td>Luôn rẽ từ nhánh Stable, kết thúc nhánh sẽ được merge về <code>stable</code> và <code>master</code></td>
     </tr>
   </tbody>
 </table>
@@ -60,10 +65,23 @@ Các nhánh hỗ trợ thường được sử dụng để hỗ trợ phát tri
 Các nhánh này bao gồm:
 
 * Features branches
-* Bug branches
+  * Nhánh có chức năng phát triển các tính năng mới và được cập nhật trong giai đoạn 1 (10 - 30 ngày), giai đoạn 2 (31 - 60 ngày).
+  * Mã hiệu tên nhánh: `dev-*`, `feat-*`, hoặc `topic-*`
+  * Mức độ ưu tiên: `3`
+  * Chỉ số semver: MAJOR, MINOR
+* Bugfix brances
+  * Nhánh thực hiện sửa lỗi các chức năng hệ thống, có thời gian thực hiện và cập nhật bản vá từ **3 - 5** ngày.
+  * Mã hiệu tên nhánh: `bugfix-*`
+  * Mức độ ưu tiên: `2`
+  * Chỉ số semver: MINOR, PATCH
 * Hotfix brances
+  * Nhánh thực hiện các chỉnh sửa và cập nhật ngay cho khách hàng, thời gian xử lý trong vòng 2 ngày.
+  * Mã hiệu tên nhánh: `hotfix-*`
+  * Mức độ ưu tiên: `1`
+  * Chỉ số semver: PATCH
 
-Mỗi nhánh này có một mục đích cụ thể và có ràng buộc nghiêm ngặt, như: được rẽ từ nhánh nào và sẽ được merge vào nhánh đích nào sau khi kết thúc.
+Mỗi nhánh này có một mục đích cụ thể và có ràng buộc nghiêm ngặt, như: được rẽ từ nhánh nào và sẽ được merge vào nhánh đích nào. Sau khi kết thúc mã nguồn dự án sẽ được đánh phiên bản theo quy ước [semver](http://semver.org/): MAJOR.MINOR.PATCH.
+
 
 # 2. Workflow Diagram
 
@@ -75,7 +93,7 @@ Việc rẽ nhánh cần chọn tên ngắn và có mô tả
 
 ```bash
 # good
-$ git checkout -b topic-oauth-migration
+$ git checkout -b dev-oauth-migration
 
 # bad
 $ git checkout -b login_fix
