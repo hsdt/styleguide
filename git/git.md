@@ -29,7 +29,7 @@
     <tr>
       <td>Working</td>
       <td>master</td>
-      <td>Nhánh phát triển: Chỉ chấp nhận các yêu cầu merge (PR) từ nhánh các nhánh Features/Issues,  và Hotfixes (không code trực tiếp trên nhánh này).</td>
+      <td>Nhánh phát triển: Chỉ chấp nhận các yêu cầu merge (PR) từ nhánh các nhánh Features/Issues, Bugfixes và Hotfixes (không code trực tiếp trên nhánh này).</td>
     </tr>
     <tr>
       <td>Features/Issues</td>
