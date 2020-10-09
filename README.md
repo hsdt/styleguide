@@ -23,9 +23,13 @@ Tài liệu thống nhất các quy ước về các tiêu chuẩn, nguyên tắ
 
 ## C#
 
-* [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)
-* [C# Style Guide](https://github.com/raywenderlich/c-sharp-style-guide)
-* [C# Coding Standards and Naming Conventions](http://www.dofactory.com/reference/csharp-coding-standards)
+* [HSDT - C# Coding Conventions](programming-language/csharp.md)
+
+### References:
+
+* [Microsoft - C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)
+* [Raywenderlich - C# Style Guide](https://github.com/raywenderlich/c-sharp-style-guide)
+* [Dofactory - C# Coding Standards and Naming Conventions](http://www.dofactory.com/reference/csharp-coding-standards)
 
 # <a name="env"></a>Môi trường phát triển
 
